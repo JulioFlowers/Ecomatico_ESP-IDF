@@ -1,21 +1,21 @@
 dependencies:
-  espressif/cmake_utilities:
-    component_hash: 32d235c66d22f05ca3b5a3c2bdf273edd273b1e624b144fa8635066be50bae7b
+  espressif/ds18b20:
+    component_hash: d1e277cbc765de715ad2a14b1f61d4e9415bf9e3ebde0da6b3f577164ddd7fe4
     source:
       service_url: https://api.components.espressif.com/
       type: service
-    version: 0.4.8
-  espressif/esp-now:
-    component_hash: b3ba4b8cad26cd826d1bdf410fb50b747b83b66fc85ff2dc2296759d9f668043
+    version: 0.1.0
+  espressif/onewire_bus:
+    component_hash: d7640dd153b1209c3041977282e8cf27039655c23ff42b9032080f1a61582a58
     source:
       service_url: https://api.components.espressif.com/
       type: service
-    version: 2.3.0
+    version: 1.0.0
   idf:
     component_hash: null
     source:
       type: idf
     version: 5.1.0
-manifest_hash: 3be44f22d418c2537fb561c871871e25102af6bca5bd8977f7b62b3f3ff99ad4
+manifest_hash: deb7a6a40cdd08b40167231423785c01510cc29bd82bb3a64b9882138a56c43e
 target: esp32c3
 version: 1.0.0
